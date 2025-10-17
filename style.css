@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 :root{
@@ -26,7 +27,7 @@ a{
 nav{
     width: 100%;
     height: 60px;
-    background-color: #333;
+    background-color:var(--nav-color);
 
     display: flex;
     justify-content: center;
@@ -116,7 +117,8 @@ nav ul a:hover{
     font-size: 2.5rem;
 }
 
-#profile .profilebox{
+
+#profile div{
     width: 900px;
     height: 200px;
     /* background-color: green; */
@@ -138,12 +140,11 @@ nav ul a:hover{
 #profile .profilebox div img{
     width: 100%;
     height: 100%;
-
     border-radius: 50%;
 }
 
 #profile .profilebox p{
-    width: 500px;
+    width: 600px;
     height: 130px;
     /* border: 5px solid black; */
     text-align: center;
@@ -211,7 +212,7 @@ nav ul a:hover{
 }
 #contact .contactbox{
     width: 500px;
-    height: 120px;
+    height: 120px; 
     /* background-color: brown; */
 }
 #contact .contactmap{
@@ -223,6 +224,7 @@ nav ul a:hover{
     width: 100%;
     height: 100%;
 }
+/* footer */
 footer{
     width: 100%;
     height: 40px;
@@ -234,5 +236,3 @@ footer p{
     line-height: 40px;
     font-size: 0.9rem;
 }
-    
-
